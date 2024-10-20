@@ -1,13 +1,13 @@
 
 .data
 
-array: .word 2
+array: .word 1, 0, 1, 12, 0, 1, 4
 
 .text
 
     la a0, array 
-    li a1, 1     # unsigned
-    li a2, 2     
+    li a1, 7    # unsigned
+    li a2, 1     
 prog:
 #-----------------------------
 # Write your code here!
